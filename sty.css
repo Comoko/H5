@@ -1,0 +1,37 @@
+body{
+    background-color: LightGrey;
+    font-family: Microsoft Yahei;
+    font-size: 90%;
+}
+
+.title{
+    background-color: black;
+    height: 60px;
+}
+
+.logo{
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	height: 60px;
+	width: auto;
+}
+
+.link{
+    position: relative;
+    float: right;
+}
+
+.link a{
+    color: white;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+
+.article{
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    
+}
