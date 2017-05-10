@@ -11,10 +11,10 @@
     <div class="head">
         <img class="logo" src="assets/logo.jpg" alt="log"/>
         <div class="link">
-            <a href="#">导航链接一</a>
-            <a href="#">导航链接二</a>
-            <a href="#">导航链接三</a>
-            <a href="#">导航链接四</a>
+            <a href="#1">导航链接一</a>
+            <a href="#2">导航链接二</a>
+            <a href="#3">导航链接三</a>
+            <a href="#4">导航链接四</a>
         </div>
     </div>
     
@@ -122,39 +122,51 @@
     <div class="article">
         <h2 class="sideTitle">sideline title</h2>
         <form>
-            <p> 请输入邮箱地址：<input placeHolder="这是一个文本输入框" type="text"></input><br></p>
-            <p> 邮箱地址请按要求格式输入</p>
-        <p>
-            please input password: <input placeholder="这是一个文本输入框" type="password">
-            please confirm password: <input placeholder="这是一个文本输入框" type="password">
-        </p>
-        <p>
-            密码请为6-16为英文数字
-        </p>
+            <div>
+                <label>请输入邮箱地址：</label>
+                <input placeHolder="这是一个文本输入框" type="text"></input>
+            </div>
+            <span>邮箱地址请按要求格式输入</span>
+            <div>
+                <label>please input password：</label>
+                <input placeholder="这是一个文本输入框" type="password"></input>             
+            </div>
+            <div>
+                <label>please confirm password：</label>
+                <input placeholder="这是一个文本输入框" type="password"></input>
+            </div>
+            <span>密码请为6-16为英文数字</span>
         
-        <p>
-            <span>性别：</span>
-            <input type="radio" name="gender" checked=true>男</input>
-            <input type="radio" name="gender">女</input>
-            <span>城市：</span>
-            <select>
-                <option>北京</option>
-                <option>上海</option>
-                <option>深圳</option>
-            </select>
-            <span>爱好：</span>
-            <input type="checkbox" name="hobby">运动</input>
-            <input type="checkbox" name="hobby">艺术</input>
-            <input type="checkbox" name="hobby">科学</input>
-            <span>个人描述：</span>
-            <textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+            <div>
+                <label>性别：</label>
+                <input type="radio" name="gender" checked=true>男</input>
+                <input type="radio" name="gender">女</input>
+            </div>
+            <div>
+                <label>城市：</label>
+                <select>
+                    <option>北京</option>
+                    <option>上海</option>
+                    <option>深圳</option>
+                </select>
+            </div>
+            
+            <div>
+                <label>爱好：</label>
+                <input type="checkbox" name="hobby">运动</input>
+                <input type="checkbox" name="hobby">艺术</input>
+                <input type="checkbox" name="hobby">科学</input>
+            </div>
+           
+           <div>
+                <label>个人描述：</label>
+                <textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+           </div>
+            
             <button disabled=true>确认提交</button>
-        </p>
-        </form>
-    </div>
         
-    </div>
-    
+        </form>
+      
      <div class="footer">
         <p>Copyright: &copy;</p>
     </div>
