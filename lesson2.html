@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="title">
+    <div class="head">
         <img class="logo" src="assets/logo.jpg" alt="log"/>
         <div class="link">
             <a href="#">导航链接一</a>
@@ -18,6 +18,7 @@
         </div>
     </div>
     
+    <div>
     
     <div class="article">
         <h2>文章一级标题</h2>
@@ -92,36 +93,37 @@
         
         <p>table</p>
         <table border="1">
-            <tr>
+            <thead>
+                <tr>
                 <th>表头</th>
                 <th>表头</th>
                 <th>表头</th>
             </tr>
-            <tr>
-                <td>单元格单元格单元格</td>
-                <td>单元格单元格单元格</td>
-                <td><a href="#">操作</a></td>
-            </tr>
-            <tr>
-                <td>单元格单元格单元格</td>
-                <td>单元格单元格单元格</td>
-                <td><a href="#">操作</a></td>
-            </tr>
-            <tr class="total">
-                <td>总计</td>
-                <td colspan="2">1000</td>
-            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>单元格单元格单元格</td>
+                    <td>单元格单元格单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>单元格单元格单元格</td>
+                    <td>单元格单元格单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr class="total">
+                    <td>总计</td>
+                    <td colspan="2">1000</td>
+                </tr>
+            </tbody>
+            
         </table>
     </div>
-    <div class=sideline>
-        <h2>sideline title</h2>
-        <h2>register title</h2>
-        <p>
-            请输入邮箱地址：<input placeHolder="这是一个文本输入框" type="text"></input><br>
-        </p>
-        <p>
-            邮箱地址请按要求格式输入
-        </p>
+    <div class="article">
+        <h2 class="sideTitle">sideline title</h2>
+        <form>
+            <p> 请输入邮箱地址：<input placeHolder="这是一个文本输入框" type="text"></input><br></p>
+            <p> 邮箱地址请按要求格式输入</p>
         <p>
             please input password: <input placeholder="这是一个文本输入框" type="password">
             please confirm password: <input placeholder="这是一个文本输入框" type="password">
@@ -148,9 +150,13 @@
             <textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
             <button disabled=true>确认提交</button>
         </p>
+        </form>
     </div>
-     <footer class="footer">
-        Copyright: &copy;
-    </footer>
+        
+    </div>
+    
+     <div class="footer">
+        <p>Copyright: &copy;</p>
+    </div>
 </body>
 </html>
