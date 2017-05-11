@@ -1,36 +1,43 @@
 div {
     border: 1px solid grey;
     padding: 20px;
+    background: white;
+    display: block;
 }
 
 div.main{
     background: lightGrey;
+    position: relative;
+}
+
+.left{
+    width: 158px;
+    float: left;
+    position: absolute;
+    top: 20px;
+	left: 20px;
+}
+
+.center{
+    max-width: 70%;
+    float: left;
+    margin: 0px 140px 0px 220px;
     
-}
-
-div.left{
-    width: 20px;
-    height: 50px;
-    float: left;
-    
-}
-
-dvi.center{
-    width: 50px;
-    float: left;
-    height: 60px;
 
 }
 
-div.right{
-    width: 12px;
+.right{
+    width: 78px;
     float: left;
-    height: 70px;
+    position: absolute;
+    top: 20px;
+	right: 20px;
 }
 
 div.footer{
     border: none;
-   
     clear: both;
+    background: transparent;
+    height: 0px;
 }
 
