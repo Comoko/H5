@@ -1,68 +1,36 @@
-div {
-    border: 1px solid #999;
-    padding: 20px;
-    background: white;
-    display: block;
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-div.main{
-    background: #eee;
+.rect{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
     position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ccc;
+    overflow: hidden;
 }
 
-.left{
-    width: 158px;
-    float: left;
+.top_circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #fc0;
+    position: relative;
+    top: -50px;
+    left: -50px;
+}
+
+.bottom_circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #fc0;
     position: absolute;
-    top: 20px;
-	left: 20px;
-}
-
-.center{
-    max-width: 70%;
-    float: left;
-    margin: 0px 140px 0px 220px;
-    
-
-}
-
-.right{
-    width: 118px;
-    position: absolute;
-    top: 20px;
-	right: 20px;
-    padding: 0px;
-}
-
-.logo{
-    width: 80px;
-    height: 80px;
-}
-
-.left label{
-    float: right;
-    font-size: 18px;
-    font-weight: bold;
-    display: block;
-}
-
-ul{
-    list-style: none;
-    text-align: center;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 15px;
-}
-
-li{
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-div.footer{
-    border: none;
-    clear: both;
-    background: transparent;
-    height: 0px;
+    bottom: -200px;
+    right: -400px;
 }
