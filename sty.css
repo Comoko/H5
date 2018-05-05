@@ -1,36 +1,194 @@
-*{
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body{
+    background-color: LightGrey;
+    font-family: Microsoft Yahei;
+    font-size: 90%;
+    margin: 0px;
 }
 
-.rect{
-    width: 400px;
-    height: 200px;
-    margin: 0 auto;
+.head{
+    background-color: black;
+    height: 60px;
+}
+
+.logo{
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #ccc;
-    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+    height: 60px;
+    width: auto;
 }
 
-.top_circle{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    background-color: #fc0;
+.link{
     position: relative;
-    top: -50px;
-    left: -50px;
+    float: right;
 }
 
-.bottom_circle{
-    width: 100px;
+.link a:link
+{
+    color:#FFFFFF;
+    line-height: 60px;
+    text-decoration:none;
+    width: 120px;
+    padding: 10px;
+}
+.link a:hover,.link a:active,.link a:visited
+{
+    color: grey;
+}
+
+.article{
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    border-color: darkGrey;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow : 2px 2px 1px darkGrey;
+}
+
+.article_container{
+    margin-right: 20px;
+    max-width: 70%;
+    position: static;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sideline{
+    width: 25%;
+    background-color: white;
+    padding: 15px;
+    border-color: darkGrey;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow : 2px 2px 1px darkGrey;
+
+    margin-right: 20px;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    min-width: 350px;
+}
+
+.article h2{
+
+}
+
+.article h3,.article .author{
+    color: grey;
+}
+
+.article .content{
+    text-indent:2em;
+}
+
+div ul{
+    list-style: none;
+}
+
+div ol{
+    font-size: large;
+}
+
+.img_box{
+    border-width: 1px;
+    border-color: gery;
+    border-style: solid;
+    width: 220px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.img_box img{
+    max-width: 220px;
+}
+
+.img_box p{
+    text-align: center;
+}
+
+table{
+    border: 1px solid #aaa;
+    width: 96%;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+td{
+    border:solid #aaa;
+    border-width:0px 1px 1px 0px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table .total{
+    background-color: lightGrey;
+}
+
+.article .sideTitle{
+    border-left: 3px solid lightGrey;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.article form div{
+    margin: 15px 0px;
+}
+
+.article  form  div  label {
+    display: inline-block;
+    margin-right: 0.5%;
+    width: 35%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.article  form span {
+    margin-left: 35.5%;
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 50%;
     height: 100px;
-    border-radius: 50px;
-    background-color: #fc0;
-    position: absolute;
-    bottom: -200px;
-    right: -400px;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+}
+
+form button{
+    width: 90%;
+    height: 40px;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    box-shadow: 0 0 3px blue;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
