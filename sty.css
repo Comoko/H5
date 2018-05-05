@@ -2,6 +2,7 @@ body{
     background-color: LightGrey;
     font-family: Microsoft Yahei;
     font-size: 90%;
+    margin: 0px;
 }
 
 .head{
@@ -43,6 +44,30 @@ body{
     border-style: solid;
     border-width: 1px;
     box-shadow : 2px 2px 1px darkGrey;
+}
+
+.article_container{
+    margin-right: 20px;
+    max-width: 70%;
+    position: static;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sideline{
+    width: 25%;
+    background-color: white;
+    padding: 15px;
+    border-color: darkGrey;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow : 2px 2px 1px darkGrey;
+
+    margin-right: 20px;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    min-width: 350px;
 }
 
 .article h2{
