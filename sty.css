@@ -1,194 +1,83 @@
-body{
-    background-color: LightGrey;
-    font-family: Microsoft Yahei;
-    font-size: 90%;
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 980px;
+    height: 1386px;
+    padding-left: 44px;
+    padding-right: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua;
 }
 
 .head{
-    background-color: black;
-    height: 60px;
+    height: 61px;
+    border-bottom:2px solid black;
 }
 
-.logo{
+.head_left{
+    width: 110px;
+    height: 100%;
+    background-color: crimson;
+}
+
+.text{
+    font-family: 黑体;
+    color: white;
+    position: relative;
+    left: 0;
+    top: 40px;
+    font-size: 12px;
+}
+
+.head_right{
+    position: relative;
+    float: right;
+    font-family: 黑体, serif;
+    font-size: 12px;
+    top: 40px;
+    color: #d45d5c;
+}
+
+.content1{
+    margin-top: 20px;
+}
+
+.one_left{
+    width: 641px;
+    height: 301px;
+    background-size: inherit;
+    background: url("assets/pic1.jpg");
+    position: absolute;
+}
+
+.layer_left{
+    width: 191px;
+    height: 100%;
+    background-color: #00ff0055;
     position: relative;
     float: left;
-    margin-left: 10px;
-    height: 60px;
-    width: auto;
+    top: 0;
 }
 
-.link{
+.layer_right{
+    width: 191px;
+    height: 100%;
+    background-color: #ff000055;
     position: relative;
     float: right;
+    top: 0;
 }
 
-.link a:link
-{
-    color:#FFFFFF;
-    line-height: 60px;
-    text-decoration:none;
-    width: 120px;
-    padding: 10px;
-}
-.link a:hover,.link a:active,.link a:visited
-{
-    color: grey;
-}
-
-.article{
-    margin: 20px auto;
-    background-color: white;
-    padding: 15px;
-    border-color: darkGrey;
-    border-style: solid;
-    border-width: 1px;
-    box-shadow : 2px 2px 1px darkGrey;
-}
-
-.article_container{
-    margin-right: 20px;
-    max-width: 70%;
-    position: static;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.sideline{
-    width: 25%;
-    background-color: white;
-    padding: 15px;
-    border-color: darkGrey;
-    border-style: solid;
-    border-width: 1px;
-    box-shadow : 2px 2px 1px darkGrey;
-
-    margin-right: 20px;
+.one_right{
+    width: 253px;
     position: relative;
     float: right;
-    margin-top: 20px;
-    min-width: 350px;
+    top: 0;
+    border-width: 2px;
+    border-top: solid #cc8091;
 }
 
-.article h2{
-
-}
-
-.article h3,.article .author{
-    color: grey;
-}
-
-.article .content{
-    text-indent:2em;
-}
-
-div ul{
-    list-style: none;
-}
-
-div ol{
-    font-size: large;
-}
-
-.img_box{
-    border-width: 1px;
-    border-color: gery;
-    border-style: solid;
-    width: 220px;
-    padding: 10px;
-    margin: 20px;
-}
-
-.img_box img{
-    max-width: 220px;
-}
-
-.img_box p{
-    text-align: center;
-}
-
-table{
-    border: 1px solid #aaa;
-    width: 96%;
-    border-spacing: 0px;
-    border-collapse: collapse;
-}
-
-th{
-    background-color: black;
-    color: white;
-    text-align: left;
-}
-
-td{
-    border:solid #aaa;
-    border-width:0px 1px 1px 0px;
-}
-
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
-table .total{
-    background-color: lightGrey;
-}
-
-.article .sideTitle{
-    border-left: 3px solid lightGrey;
-    padding-left: 15px;
-    font-size: 18px;
-}
-
-form {
-    display: block;
-    margin-top: 0em;
-}
-
-.article form div{
-    margin: 15px 0px;
-}
-
-.article  form  div  label {
-    display: inline-block;
-    margin-right: 0.5%;
-    width: 35%;
-    text-align: right;
-    vertical-align: top;
-}
-
-.article  form span {
-    margin-left: 35.5%;
-    font-size: 13px;
-    color: #ccc;
-    margin-bottom: 20px;
-}
-
-textarea{
-    width: 50%;
-    height: 100px;
-    border-color: grey;
-    border-width: 1px;
-    border-style: solid;
-}
-
-form button{
-    width: 90%;
-    height: 40px;
-    color: white;
-    background: blue;
-    border-radius: 5px;
-    box-shadow: 0 0 3px blue;
-    display: block;
-    margin: auto;
-    border: none;
-}
-
-.footer{
-    width: 100%;
-    height: 70px;
-    background-color: black;
-    color: white;
-    text-align: center;
-}
